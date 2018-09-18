@@ -18,8 +18,10 @@ namespace BilletLibrary
         /// Returnere prisen på en billet.
         /// </summary>
         /// <returns></returns>
-        public override decimal Pris()
+        public override decimal Pris(bool broBizz)
         {
+            if (broBizz)
+                return (125 / 100) * 95;
             return 125;
         }
         /// <summary>
