@@ -39,7 +39,10 @@ namespace BilletLibrary
         {
             return "Køretøj";
         }
-
+        /// <summary>
+        /// Tjekker om nummerpladen er over 7 tegn.
+        /// </summary>
+        /// <returns></returns>
         public void TjekNummerplade()
         {
             if (Nummerplade.Length > 7)

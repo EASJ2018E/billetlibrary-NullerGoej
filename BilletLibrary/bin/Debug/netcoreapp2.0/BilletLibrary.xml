@@ -10,7 +10,7 @@
             </summary>
             <param name="nummerplade"></param>
         </member>
-        <member name="M:BilletLibrary.Bil.Pris">
+        <member name="M:BilletLibrary.Bil.Pris(System.Boolean)">
             <summary>
             Returnere prisen på en billet.
             </summary>
@@ -22,7 +22,7 @@
             </summary>
             <returns></returns>
         </member>
-        <member name="M:BilletLibrary.Køretøj.Pris">
+        <member name="M:BilletLibrary.Køretøj.Pris(System.Boolean)">
             <summary>
             Returnere prisen på en billet.
             </summary>
@@ -34,13 +34,19 @@
             </summary>
             <returns></returns>
         </member>
+        <member name="M:BilletLibrary.Køretøj.TjekNummerplade">
+            <summary>
+            Tjekker om nummerpladen er over 7 tegn.
+            </summary>
+            <returns></returns>
+        </member>
         <member name="M:BilletLibrary.MC.#ctor(System.String)">
             <summary>   
             Objekt Motor Cykle.
             </summary>
             <param name="nummerplade"></param>
         </member>
-        <member name="M:BilletLibrary.MC.Pris">
+        <member name="M:BilletLibrary.MC.Pris(System.Boolean)">
             <summary>
             Returnere prisen på en billet.
             </summary>
