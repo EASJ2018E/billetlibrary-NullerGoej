@@ -4,32 +4,32 @@ using System.Text;
 
 namespace BilletLibrary
 {
-    public class Bil
+    public class MC
     {
         /// <summary>   
-        /// Objekt bil.
+        /// Objekt Motor Cykle.
         /// </summary>
         /// <param name="nummerplade"></param>
-        public Bil(string nummerplade)
+        public MC(string nummerplade)
         {
             Nummerplade = nummerplade;
             Dato = new DateTime();
         }
         /// <summary>
-        /// Bilens Nummerplade.
+        /// Motor Cyklens Nummerplade.
         /// </summary>
         public string Nummerplade { get; set; }
         /// <summary>
-        /// Bilens Dato.
+        /// Motor Cyklens Dato.
         /// </summary>
         public DateTime Dato { get; set; }
         /// <summary>
-        /// Pris for Bil Billet.
+        /// Pris for Motor Cykle Billet.
         /// </summary>
-        /// <returns>Retunere Prisen for Bil Billet</returns>
+        /// <returns>Retunere Prisen for Motor Cykle Billet</returns>
         public decimal Pris()
         {
-            return 240;
+            return 125;
         }
         /// <summary>
         /// Type Køretøj.
@@ -37,7 +37,7 @@ namespace BilletLibrary
         /// <returns>Returene Køretøjet</returns>
         public string Køretøj()
         {
-            return "Bil";
+            return "MC";
         }
     }
 }

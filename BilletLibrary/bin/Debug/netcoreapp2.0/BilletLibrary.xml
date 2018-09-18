@@ -5,7 +5,7 @@
     </assembly>
     <members>
         <member name="M:BilletLibrary.Bil.#ctor(System.String)">
-            <summary>
+            <summary>   
             Objekt bil.
             </summary>
             <param name="nummerplade"></param>
@@ -27,6 +27,34 @@
             <returns>Retunere Prisen for Bil Billet</returns>
         </member>
         <member name="M:BilletLibrary.Bil.Køretøj">
+            <summary>
+            Type Køretøj.
+            </summary>
+            <returns>Returene Køretøjet</returns>
+        </member>
+        <member name="M:BilletLibrary.MC.#ctor(System.String)">
+            <summary>   
+            Objekt Motor Cykle.
+            </summary>
+            <param name="nummerplade"></param>
+        </member>
+        <member name="P:BilletLibrary.MC.Nummerplade">
+            <summary>
+            Motor Cyklens Nummerplade.
+            </summary>
+        </member>
+        <member name="P:BilletLibrary.MC.Dato">
+            <summary>
+            Motor Cyklens Dato.
+            </summary>
+        </member>
+        <member name="M:BilletLibrary.MC.Pris">
+            <summary>
+            Pris for Motor Cykle Billet.
+            </summary>
+            <returns>Retunere Prisen for Motor Cykle Billet</returns>
+        </member>
+        <member name="M:BilletLibrary.MC.Køretøj">
             <summary>
             Type Køretøj.
             </summary>
