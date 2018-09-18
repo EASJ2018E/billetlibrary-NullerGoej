@@ -13,6 +13,11 @@ namespace BilletLibrary
         {
             Nummerplade = nummerplade;
             Dato = new DateTime();
+
+            if (Nummerplade.Length > 7)
+            {
+                throw new Exception("Nummerpladen må maks være på 7 tegn");
+            }
         }
         /// <summary>
         /// Returnere prisen på en billet.
