@@ -5,32 +5,52 @@
     </assembly>
     <members>
         <member name="M:BilletLibrary.Bil.#ctor(System.String)">
-            <summary>
-            Objekt bil.
+            <summary>   
+            Objekt Bil.
             </summary>
             <param name="nummerplade"></param>
         </member>
-        <member name="P:BilletLibrary.Bil.Nummerplade">
-            <summary>
-            Bilens Nummerplade.
-            </summary>
-        </member>
-        <member name="P:BilletLibrary.Bil.Dato">
-            <summary>
-            Bilens Dato.
-            </summary>
-        </member>
         <member name="M:BilletLibrary.Bil.Pris">
             <summary>
-            Pris for Bil Billet.
+            Returnere prisen på en billet.
             </summary>
-            <returns>Retunere Prisen for Bil Billet</returns>
+            <returns></returns>
         </member>
-        <member name="M:BilletLibrary.Bil.Køretøj">
+        <member name="M:BilletLibrary.Bil.KøretøjType">
             <summary>
-            Type Køretøj.
+            Returnere typen på køretøjet.
             </summary>
-            <returns>Returene Køretøjet</returns>
+            <returns></returns>
+        </member>
+        <member name="M:BilletLibrary.Køretøj.Pris">
+            <summary>
+            Returnere prisen på en billet.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BilletLibrary.Køretøj.KøretøjType">
+            <summary>
+            Returnere typen på køretøjet.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BilletLibrary.MC.#ctor(System.String)">
+            <summary>   
+            Objekt Motor Cykle.
+            </summary>
+            <param name="nummerplade"></param>
+        </member>
+        <member name="M:BilletLibrary.MC.Pris">
+            <summary>
+            Returnere prisen på en billet.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:BilletLibrary.MC.KøretøjType">
+            <summary>
+            Returnere typen på køretøjet.
+            </summary>
+            <returns></returns>
         </member>
     </members>
 </doc>

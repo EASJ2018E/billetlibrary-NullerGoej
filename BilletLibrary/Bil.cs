@@ -4,38 +4,29 @@ using System.Text;
 
 namespace BilletLibrary
 {
-    public class Bil
+    public class Bil : Køretøj
     {
         /// <summary>   
-        /// Objekt bil.
+        /// Objekt Bil.
         /// </summary>
         /// <param name="nummerplade"></param>
-        public Bil(string nummerplade)
+        public Bil(string nummerplade) : base(nummerplade)
         {
-            Nummerplade = nummerplade;
-            Dato = new DateTime();
+
         }
         /// <summary>
-        /// Bilens Nummerplade.
+        /// Returnere prisen på en billet.
         /// </summary>
-        public string Nummerplade { get; set; }
-        /// <summary>
-        /// Bilens Dato.
-        /// </summary>
-        public DateTime Dato { get; set; }
-        /// <summary>
-        /// Pris for Bil Billet.
-        /// </summary>
-        /// <returns>Retunere Prisen for Bil Billet</returns>
-        public decimal Pris()
+        /// <returns></returns>
+        public override decimal Pris()
         {
             return 240;
         }
         /// <summary>
-        /// Type Køretøj.
+        /// Returnere typen på køretøjet.
         /// </summary>
-        /// <returns>Returene Køretøjet</returns>
-        public string Køretøj()
+        /// <returns></returns>
+        public override string KøretøjType()
         {
             return "Bil";
         }

@@ -4,31 +4,28 @@ using System.Text;
 
 namespace BilletLibrary
 {
-    public class MC : Køretøj
+    public abstract class Køretøj
     {
-        /// <summary>   
-        /// Objekt Motor Cykle.
-        /// </summary>
-        /// <param name="nummerplade"></param>
-        public MC(string nummerplade) : base(nummerplade)
-        {
+        public string Nummerplade { get; set; }
+        public DateTime Dato { get; set; }
 
+        public Køretøj(string nummerplade)
+        {
+            Nummerplade = nummerplade;
+            Dato = new DateTime();
         }
         /// <summary>
         /// Returnere prisen på en billet.
         /// </summary>
         /// <returns></returns>
-        public override decimal Pris()
-        {
-            return 125;
-        }
+        public abstract decimal Pris();
         /// <summary>
         /// Returnere typen på køretøjet.
         /// </summary>
         /// <returns></returns>
-        public override string KøretøjType()
+        public virtual string KøretøjType()
         {
-            return "MC";
+            return "Køretøj";
         }
     }
 }
