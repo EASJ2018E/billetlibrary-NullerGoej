@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BilletLibrary</name>
+    </assembly>
+    <members>
+        <member name="M:BilletLibrary.Bil.#ctor(System.String)">
+            <summary>
+            Objekt bil.
+            </summary>
+            <param name="nummerplade"></param>
+        </member>
+        <member name="P:BilletLibrary.Bil.Nummerplade">
+            <summary>
+            Bilens Nummerplade.
+            </summary>
+        </member>
+        <member name="P:BilletLibrary.Bil.Dato">
+            <summary>
+            Bilens Dato.
+            </summary>
+        </member>
+        <member name="M:BilletLibrary.Bil.Pris">
+            <summary>
+            Pris for Bil Billet.
+            </summary>
+            <returns>Retunere Prisen for Bil Billet</returns>
+        </member>
+        <member name="M:BilletLibrary.Bil.Køretøj">
+            <summary>
+            Type Køretøj.
+            </summary>
+            <returns>Returene Køretøjet</returns>
+        </member>
+    </members>
+</doc>

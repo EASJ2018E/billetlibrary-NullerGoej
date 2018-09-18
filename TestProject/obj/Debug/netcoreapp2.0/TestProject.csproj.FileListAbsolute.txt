@@ -1,0 +1,14 @@
+C:\Source\BilletLibrary\TestProject\obj\Debug\netcoreapp2.0\TestProject.csprojResolveAssemblyReference.cache
+C:\Source\BilletLibrary\TestProject\obj\Debug\netcoreapp2.0\TestProject.csproj.CoreCompileInputs.cache
+C:\Source\BilletLibrary\TestProject\obj\Debug\netcoreapp2.0\TestProject.AssemblyInfoInputs.cache
+C:\Source\BilletLibrary\TestProject\obj\Debug\netcoreapp2.0\TestProject.AssemblyInfo.cs
+C:\Source\BilletLibrary\TestProject\bin\Debug\netcoreapp2.0\TestProject.deps.json
+C:\Source\BilletLibrary\TestProject\bin\Debug\netcoreapp2.0\TestProject.runtimeconfig.json
+C:\Source\BilletLibrary\TestProject\bin\Debug\netcoreapp2.0\TestProject.runtimeconfig.dev.json
+C:\Source\BilletLibrary\TestProject\bin\Debug\netcoreapp2.0\TestProject.dll
+C:\Source\BilletLibrary\TestProject\bin\Debug\netcoreapp2.0\TestProject.pdb
+C:\Source\BilletLibrary\TestProject\bin\Debug\netcoreapp2.0\BilletLibrary.dll
+C:\Source\BilletLibrary\TestProject\bin\Debug\netcoreapp2.0\BilletLibrary.xml
+C:\Source\BilletLibrary\TestProject\obj\Debug\netcoreapp2.0\TestProject.csproj.CopyComplete
+C:\Source\BilletLibrary\TestProject\obj\Debug\netcoreapp2.0\TestProject.dll
+C:\Source\BilletLibrary\TestProject\obj\Debug\netcoreapp2.0\TestProject.pdb
